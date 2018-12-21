@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Umang Demo App</string>
+    <string name="retry">Retry</string>
+    <string name="network_error_msg">Something went wrong !! Try again !!</string>
+</resources>

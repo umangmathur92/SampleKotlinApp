@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/userPhone"
+          android:title="Call"
+          android:icon="@drawable/ic_call"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/userEmail"
+          android:title="Email"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_email"
+          app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/userWebsite"
+          android:title="Website"
+          android:icon="@drawable/ic_web"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/userLocation"
+          android:title="Map"
+          android:orderInCategory="100"
+          android:icon="@drawable/ic_map"
+          app:showAsAction="ifRoom|withText" />
+</menu>
